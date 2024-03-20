@@ -1,0 +1,25 @@
+.form-control {
+    background-color: rgba(0, 0, 0, 0.833);
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+/* Definindo altura e largura como 100% */
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: lightgray;
+}
